@@ -36,10 +36,9 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-    <ProjectReference Include="..\..\..\Net.Chdk.Core\src\Net.Chdk.Core\Net.Chdk.Core.csproj">
-      <Project>{6c183a9c-30c1-47e5-9016-48890ec8aba2}</Project>
-      <Name>Net.Chdk.Core</Name>
+    <ProjectReference Include="..\..\..\Net.Chdk.Json\src\Net.Chdk.Json\Net.Chdk.Json.csproj">
+      <Project>{bc3c0d74-5a68-4791-be4b-8b2bc724c0ec}</Project>
+      <Name>Net.Chdk.Json</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
