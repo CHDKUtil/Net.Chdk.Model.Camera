@@ -1,5 +1,6 @@
 ﻿using Net.Chdk.Json;
 using Newtonsoft.Json;
+using System;
 
 namespace Net.Chdk.Model.Camera
 {
@@ -10,5 +11,7 @@ namespace Net.Chdk.Model.Camera
 
         [JsonConverter(typeof(HexStringJsonConverter))]
         public uint FirmwareRevision { get; set; }
+
+        public Version FirmwareVersion { get; set; }
     }
 }
