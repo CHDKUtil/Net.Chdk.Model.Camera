@@ -32,7 +32,7 @@
 
   <ItemGroup>
     <PackageReference Include="Net.Chdk.Json" Version="0.1.2-alpha" />
-    <PackageReference Include="newtonsoft.json" Version="10.0.3" />
+    <PackageReference Include="newtonsoft.json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
